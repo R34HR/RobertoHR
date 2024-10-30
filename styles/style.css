@@ -1,0 +1,31 @@
+html {
+    font-family: "Times New Roman", Times, serif;
+}
+div, header, footer{
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+
+
+a {
+    font-size: 20px;
+}
+.special {
+    word-spacing: 30px;
+}
+body {
+    width: auto;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border: 5px solid black;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+}
+
+
+  
