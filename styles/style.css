@@ -1,3 +1,4 @@
+@import url('http://getbootstrap.com/dist/css/bootstrap.css');
 html {
     font-family: "Times New Roman", Times, serif;
 }
@@ -9,23 +10,30 @@ div, header, footer{
   }
 
 
-a {
-    font-size: 20px;
+a:hover {
+    background-color: #6d767e;
 }
-.special {
-    word-spacing: 30px;
+a{
+    color: white;
 }
 body {
     width: auto;
     margin: 0 auto;
     background-color: white;
-    padding: 5px 10px 5px 10px;
+    padding: 2px 0px 2px 0px;
     border: 5px solid black;
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
     display: block;
 }
-
-
-  
+header {
+    display: block;
+  }
+#Welcome_link,
+#About_link,
+#Expereince_link,
+#Project_link{
+    font-size: 20px;
+    color: white;
+}

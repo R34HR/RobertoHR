@@ -4,38 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roberto's Portfolio</title>
-    <link href="styles/style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="styles/style.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
         <h1>Roberto Hernandez-Ramirez</h1>
-        <div class="special">
-            <a href= "#">About</a>
-            <a href= "#">Experience</a>
-            <a href= "#">Projects </a>
+        <div id = "navbar">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Welcome_sect" id= "Welcome_link">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About_sect" id= "About_link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Experience_sect" id= "Expereince_link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project_sect" id="Project_link">Project</a>
+            </li>
+          </ul>
         </div>
     </header>
-    <div> 
-        <h2>Welcome!</h2>
-        <p>Hello and Welcome to Roberto's Portfolio!</p>
-        <p>I am Roberto Hernandez-Ramirez and here you'll find a summary of my personal Projects</p>
+    <div id = "Welcome_sect" class = ".container-fluid"> 
+      <div class = "row">
+        <h2>Welcome to my Personal Portfolio!</h2> 
+        <div class = "col-md-3"></div>
+        <div id="Personal_photo_box" class = "col-md-3">
+          <img src="images/self_portrait.jpeg" class="rounded float-center" alt="Roberto Hernandez-Ramirez" width= 250px height=250px>
+        </div>
+        <div id="Personal_intro_box" class = "col-md-3">
+          <p>My name is Roberto Hernandez-Ramirez. Born and raised in Seattle, Washington. Studied at Seattle Pacific University pursuing a bachelors of Science Degree in Computer Science. On this page you'll find a summary of my projects that I have created and are personally proud of. 
+            Please feel free to look around and contact me for any information.</p>
+        </div>
+        <div class = "col-md-3"></div>
+      </div>
     </div>
-    <div>
-        <h2>About</h2>
-        <p></p>
-    </div>
-    <div>
+
+    <div id = "Experience_sect">
         <h2>Experience</h2>
         <p></p>
     </div>
-    <div>
+    <div id = "Project_sect">
         <h2>Projects</h2>
         <p></p>
     </div>
     <footer>
         <p>Author: Roberto Hernandez-Ramirez</p>
-        <a href="mailto:robertoah34@gmail.com">robertoahr34@gmail.com</a>
+        <a class = "nav-item" href="mailto:robertoah34@gmail.com">robertoahr34@gmail.com</a>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
