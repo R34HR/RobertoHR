@@ -9,7 +9,6 @@ div, header, footer{
     color: white;
   }
 
-
 a:hover {
     background-color: #6d767e;
 }
@@ -19,7 +18,6 @@ a{
 body {
     width: auto;
     margin: 0 auto;
-    background-color: white;
     padding: 2px 0px 2px 0px;
     border: 5px solid black;
     max-width: 100%;
@@ -36,4 +34,12 @@ header {
 #Project_link{
     font-size: 20px;
     color: white;
+}
+
+#header_banner{
+    position: relative;
+    text-align: center;
+}
+#nav_bar{
+    position: absolute;
 }
