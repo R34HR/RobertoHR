@@ -1,22 +1,22 @@
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
 
-div, 
-header,
+html{
+    text-align: center;
+    background-color: #f9fcfe;
+} 
+
 footer{
     text-align: center;
-    padding: 3px;
-    background-color: rgb(34, 34, 34);
-    color: white;
+    background-color: #f9fcfe;
+    color: #20242F;
   }
 
 a:hover {
-    background-color: darkgrey;
-}
-a{
-    color:white;
+    background-color: #313748;
 }
 p {
     font-size: 18px;
+      
 }
 body {
     width: auto;
@@ -25,26 +25,237 @@ body {
     overflow-x: hidden;
     position: relative;
     display: block;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-header {
-    display: block;
-  }
-#Welcome_link,
-#About_link,
-#Expereince_link,
-#Project_link{
-    font-size: 20px;
-    color: white;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
 }
 
-#header_banner{
-    position: relative;
+#navbar_sect{
     text-align: center;
+    background-color: #20242F;
 }
-#nav_bar{
-    position: absolute;
+#nav_container{
+    background-color: #20242F;
 }
-#photo_me{
-    border-radius: 50%;
+#personal_intro_box{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+#nav_name{
+    font-size: 18px;
+    color:#f9fcfe
+}
+#about_link,
+#experience_link,
+#cert_link,
+#project_link,
+#nav_quote{
+    font-size: 14px;
+    color: #f9fcfe;
+}
+#welcome_title{
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  font-size: x-large;
+}
+#about_sect{
+    background-image: url("../images/python_bakcgrnd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    z-index: -1;
+    padding-bottom: 12rem;
+
+}
+#about_container{
+    color: #f9fcfe;
+}
+#experience_sect,
+#cert_sect{
+    padding-top: 4.2rem;
+    padding-bottom: 7rem;
+}
+#experience_div,
+#sec_cert_div{
+    padding-top: 2rem;
+}
+#blue_cable_photobox,
+#sec_cert_photobox{
+    padding-top: 3rem;
+}
+#experience_list,
+#cert_skills_list{
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgba(0,0,0, 0.9);
+}
+#verify_button_div{
+    padding-top: 1.5rem;
+}
+#verify_button{
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+
+.custom-btn{
+    background-color: #babfc170;
+    color:black;
+}
+.custom-btn:hover{
+    background-color: #babfc155;
+}
+
+
+.animate-character{
+  background-image: linear-gradient(
+    -225deg,
+    #0d95e3 0%,
+    #7c09f7 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+
+.lineUp {
+    animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+@media (max-width: 990px){
+    html{
+        text-align: center;
+        background-color: #f9fcfe;
+    } 
+    
+    footer{
+        text-align: center;
+        background-color: #f9fcfe;
+        color: #20242F;
+      }
+    
+    a:hover {
+        background-color: #313748;
+    }
+    p {
+        font-size: 18px;
+          
+    }
+    body {
+        width: auto;
+        margin: 0 auto;
+        max-width: 100%;
+        overflow-x: hidden;
+        position: relative;
+        display: block;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 550;
+        font-style: normal;
+    }
+    
+    #navbar_sect{
+        text-align: center;
+        background-color: #20242F;
+    }
+    #nav_container{
+        background-color: #20242F;
+    }
+    
+    #nav_name{
+        font-size: 18px;
+        color:#f9fcfe
+    }
+    #about_link,
+    #experience_link,
+    #cert_link,
+    #project_link,
+    #nav_quote{
+        font-size: 14px;
+        color: #f9fcfe;
+    }
+    #welcome_title{
+      margin-top: 5rem;
+      margin-bottom: 4rem;
+      font-size: x-large;
+    }
+    #about_sect{
+        background-image: url("../images/python_bakcgrnd.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        z-index: -1;
+        padding-bottom: 12rem;
+    
+    }
+    #about_container{
+        color: #f9fcfe;
+    }
+
+    
+    #cert_sect{
+        padding-top: 3.8rem;
+        padding-bottom: 7rem;
+    }   
+
+    #blue_cable_photobox,
+    #sec_cert_photobox{
+        padding-top:  0rem;
+    }
+    
+    #experience_list{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    /* #experience_div */
+
+    #personal_intro_box{
+        background-color: rgba(0,0,0, 0.6);
+    }
+    
+    
+    
+    .custom-btn{
+        background-color: #babfc170;
+    }
+    .custom-btn:hover{
+        background-color: #babfc155;
+    }
+    
 }
