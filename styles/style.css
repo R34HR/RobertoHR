@@ -1,8 +1,11 @@
 @import url('http://getbootstrap.com/dist/css/bootstrap.css');
 
+/* Main File CSS */
+
 html{
     text-align: center;
     background-color: #f9fcfe;
+    scroll-padding-top: 70px;
 } 
 
 footer{
@@ -31,6 +34,8 @@ body {
     font-style: normal;
 }
 
+/* Header and Main Navigation */
+
 #navbar_sect{
     text-align: center;
     background-color: #20242F;
@@ -38,10 +43,6 @@ body {
 #nav_container{
     background-color: #20242F;
 }
-#personal_intro_box{
-    background-color: rgba(0,0,0, 0.6);
-}
-
 #nav_name{
     font-size: 18px;
     color:#f9fcfe
@@ -49,16 +50,13 @@ body {
 #about_link,
 #experience_link,
 #cert_link,
-#project_link,
-#nav_quote{
+#project_link{
     font-size: 14px;
     color: #f9fcfe;
 }
-#welcome_title{
-  margin-top: 5rem;
-  margin-bottom: 4rem;
-  font-size: x-large;
-}
+
+/* About Section */
+
 #about_div{
     background-image: url("../images/python_bakcgrnd.jpg");
     background-repeat: no-repeat;
@@ -72,25 +70,42 @@ body {
 #about_container{
     color: #f9fcfe;
 }
+#welcome_title{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    font-size: x-large;
+}
+#personal_intro_box{
+    background-color: rgba(0,0,0, 0.6);
+}
+
+/* Multi-ID CSS */
+
 #experience_sect,
 #cert_sect{
-    padding-top: 4.2rem;
+    border-style: ridge;
+    padding-top: 3rem;
     padding-bottom: 7rem;
 }
+#project_sect{
+    border-style: ridge;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 #experience_div,
 #sec_cert_div,
-#project_div{
-    padding-top: 2rem;
+#projects_div{
+    padding-top: 2.5rem;
 }
 #blue_cable_photobox,
-#sec_cert_photobox{
+#sec_cert_photobox {
     padding-top: 3rem;
 }
 #experience_list,
 #cert_skills_list{
     font-weight: 700;
     font-size: 16px;
-    background-color: rgba(0,0,0, 0.9);
 }
 #verify_button_div{
     padding-top: 1.5rem;
@@ -101,21 +116,34 @@ body {
     padding-right: 3rem;
 
 }
+#exp_list_div
+#sec_skills_div{
+    background-color: rgba(0,0,0, 0.6);
+
+}
+ 
+/* Custom CSS Classes */
+
+.card-body{
+    background-color: #f9fcfed0;
+}
 
 .custom-btn{
-    background-color: #babfc170;
+    background-color: #41444e;
     color:black;
 }
 .custom-btn:hover{
     background-color: #babfc155;
 }
 
-
+/* Mobile Device CSS */
 
 @media (max-width: 990px){
+    /* Main File CSS */
     html{
         text-align: center;
         background-color: #f9fcfe;
+        scroll-padding-top: 60px;
     } 
     
     footer{
@@ -143,6 +171,8 @@ body {
         font-weight: 550;
         font-style: normal;
     }
+
+    /* Header and Main Navigation CSS */
     
     #navbar_sect{
         text-align: center;
@@ -159,16 +189,13 @@ body {
     #about_link,
     #experience_link,
     #cert_link,
-    #project_link,
-    #nav_quote{
+    #project_link{
         font-size: 14px;
         color: #f9fcfe;
     }
-    #welcome_title{
-      margin-top: 5rem;
-      margin-bottom: 4rem;
-      font-size: x-large;
-    }
+
+    /* About Section */
+
     #about_div{
         background-image: url("../images/python_bakcgrnd.jpg");
         background-repeat: no-repeat;
@@ -182,11 +209,30 @@ body {
     #about_container{
         color: #f9fcfe;
     }
+    #welcome_title{
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+        font-size: x-large;
+    }
+    #personal_intro_box{
+        background-color: rgba(0,0,0, 0.6);
+    }
 
-    
-    #cert_sect{
-        padding-top: 3.8rem;
+
+    /* Multi-ID CSS */
+    #cert_sect,
+    #experience_sect{
+        padding-top: 2.5rem;
         padding-bottom: 7rem;
+    }
+    #project_sect{
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+    #sec_cert_div,
+    #projects_div{
+        padding-top: 1rem;
     }   
 
     #blue_cable_photobox,
@@ -198,16 +244,172 @@ body {
         font-weight: 700;
         font-size: 16px;
     }
-    /* #experience_div */
 
-    #personal_intro_box{
-        background-color: rgba(0,0,0, 0.6);
+    
+    .card-body{
+        background-color: #f9fcfed0;
     }
     
     
+    .custom-btn{
+        background-color: #41444e;
+    }
+    .custom-btn:hover{
+        background-color: #babfc155;
+    }
+    
+}
+
+/* Large Monitors CSS */
+
+@media (min-width: 1700px){
+    /* Main File CSS */
+    html{
+        text-align: center;
+        background-color: #f9fcfe;
+        scroll-padding-top: 60px;
+    } 
+    
+    footer{
+        text-align: center;
+        background-color: #f9fcfe;
+        color: #20242F;
+      }
+    
+    a:hover {
+        background-color: #313748;
+    }
+    p {
+        font-size: 26px;
+          
+    }
+    body {
+        width: auto;
+        margin: 0 auto;
+        max-width: 100%;
+        overflow-x: hidden;
+        position: relative;
+        display: block;
+        font-family: "Montserrat", serif;
+        font-optical-sizing: auto;
+        font-weight: 550;
+        font-style: normal;
+    }
+
+    /* Header and Main Navigation CSS */
+    
+    #navbar_sect{
+        text-align: center;
+        background-color: #20242F;
+    }
+    #nav_container{
+        background-color: #20242F;
+    }
+    
+    #nav_name{
+        font-size: 28px;
+        color:#f9fcfe
+    }
+    #about_link,
+    #experience_link,
+    #cert_link,
+    #project_link{
+        font-size: 22px;
+        color: #f9fcfe;
+    }
+    
+
+    /* About Section */
+
+    #about_div{
+        background-image: url("../images/python_bakcgrnd.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        z-index: -1;
+        padding-top: 5rem;
+        padding-bottom: 20rem;
+    
+    }
+    #about_container{
+        color: #f9fcfe;
+    }
+    #welcome_title{
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+    }
+    #welcome_head{
+        font-size: 60px;
+    }
+    #personal_intro_box{
+        background-color: rgba(0,0,0, 0.6);
+    }
+
+    /* Projects Section CSS */
+
+    #project_sect{
+        padding-top: 2.5rem;
+        padding-bottom: 3rem;
+    }
+
+
+    /* Multi-ID CSS */
+    #cert_sect,
+    #experience_sect{
+        padding-top: 2.5rem;
+        padding-bottom: 7rem;
+    }
+
+    #sec_cert_div,
+    #projects_div{
+        padding-top: 1rem;
+    }   
+
+    #blue_cable_photobox,
+    #sec_cert_photobox{
+        padding-top:  4rem;
+    }
+
+    #photo_me{
+        height: 450px;
+        width: 450px;
+    }
+    #linked_png,
+    #git_png{
+        height: 60px;
+        width: 60px;
+    }
+
+    #blue_cable,
+    #sec_cert_photo{
+        height: 400px;
+        width: 400px;
+    }
+
+    #experience_head,
+    #cert_head,
+    #project_head{
+        font-size: 36px;
+    }
+    
+    #experience_list,
+    #cert_skills_list{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    #cert_textbox{
+        padding-top: 1rem;
+    }
+    
+    .card-body{
+        background-color: #f9fcfed0;
+    }
+    
     
     .custom-btn{
-        background-color: #babfc170;
+        background-color: #41444e;
     }
     .custom-btn:hover{
         background-color: #babfc155;
