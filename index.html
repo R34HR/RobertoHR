@@ -4,10 +4,10 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Roberto's Portfolio</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
       <link href="styles/style.css" rel="stylesheet"/>
   </head>
   <body>
@@ -55,7 +55,7 @@
         </div>
         <div class="row gy-4 justify-content-center" >
           <div id="personal_photo_box" class = "col-lg-4">
-            <img src="images/self_portrait.jpeg" class="rounded float-center" id="photo_me" alt="Roberto Hernandez-Ramirez" width= 325px height=325px>
+            <img src="images/self_portrait.webp" class="rounded float-center" id="photo_me" alt="Roberto Hernandez-Ramirez" width= 325px height=325px>
           </div>
           <div id="personal_intro_box" class = "col-lg-4 col-md-9 col-sm-10 col-11 border">
             <p>My name is Roberto Hernandez-Ramirez. Born and raised in Seattle, Washington where I studied at Seattle Pacific University pursuing a bachelors of Science Degree in Computer Science. I enjoy learning, staying active and finding inspiration by listening to differnt genres of music. I am deeply passionate about cybersecurity and extremely driven to expanding my expertise within the field.</p>
@@ -71,7 +71,7 @@
       <h2 id ="experience_head"><u><b>Experience:</b></u></h2>
       <div class="row gx-5 gy-3 justify-content-center" id="experience_div">
         <div id="blue_cable_photobox" class = "col-lg-4">
-          <img src="images/Untitled design.png" class="rounded float-center" id="blue_cable" alt="Blue Cable Wireless" width= 300px height=300px>
+          <img src="images/blue_cable.webp" class="rounded float-center" id="blue_cable" alt="Blue Cable Wireless" width= 300px height=300px>
         </div>
         <div id="experience_textbox" class = "col-lg-4 col-md-9 col-sm-10">
           <h5><b>Role: Assistant Manager</b></h5>
@@ -130,7 +130,7 @@
 
         <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
           <div class="card">
-              <img src="images/Subnetting_tool(5).jpeg" class="card-img-top" alt="...">
+              <img src="images/Subnetting_tool(5).webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Seven-Second Matrix Subnetting Tool:</h5>
                 <p class="card-text">Created a Python program that processes an IPv4 address in CIDR notation and outputs the corresponding subnet mask, subnet ID, broadcast address, and first/last usable addresses using the Seven-Second Subnetting Matrix.</p>
@@ -141,7 +141,7 @@
 
         <div class="col-sm-6 col-md-4 mb-3 mb-sm-0">
             <div class="card">
-              <img src="images/Port_scan(1).jpg" class="card-img-top" alt="...">
+              <img src="images/Port_scan(1).webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Port Scanner in C++:</h5>
                 <p class="card-text">Developing a port scanner in C++ to enhance my understanding of networking and port communication. Working to implement various protocols to explore their functionality and practical application.</p>

@@ -58,7 +58,7 @@ body {
 /* About Section */
 
 #about_div{
-    background-image: url("../images/python_bakcgrnd.jpg");
+    background-image: url("../images/python_backgrnd.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -197,13 +197,13 @@ body {
     /* About Section */
 
     #about_div{
-        background-image: url("../images/python_bakcgrnd.jpg");
+        background-image: url("../images/python_backgrnd.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position: center;
+        background-position: center top;
         z-index: -1;
-        padding-bottom: 12rem;
+        padding-bottom: 8rem;
     
     }
     #about_container{
@@ -242,7 +242,7 @@ body {
     
     #experience_list{
         font-weight: 700;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     
@@ -322,7 +322,7 @@ body {
     /* About Section */
 
     #about_div{
-        background-image: url("../images/python_bakcgrnd.jpg");
+        background-image: url("../images/python_backgrnd.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
