@@ -1,4 +1,4 @@
-@import url('http://getbootstrap.com/dist/css/bootstrap.css');
+@import url('https://getbootstrap.com/dist/css/bootstrap.css');
 
 /* Main File CSS */
 
@@ -30,7 +30,7 @@ body {
     display: block;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 550;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -104,8 +104,8 @@ body {
 }
 #experience_list,
 #cert_skills_list{
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 18px;
 }
 #verify_button_div{
     padding-top: 1.5rem;
@@ -241,7 +241,7 @@ body {
     }
     
     #experience_list{
-        font-weight: 700;
+        font-weight: 500;
         font-size: 15px;
     }
 
@@ -395,7 +395,7 @@ body {
     
     #experience_list,
     #cert_skills_list{
-        font-weight: 700;
+        font-weight: 500;
         font-size: 20px;
     }
 
