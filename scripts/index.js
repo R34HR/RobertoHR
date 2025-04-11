@@ -10,3 +10,27 @@ navLinks.forEach(link => {
     });
 });
 });
+// Adds/removes a class animation name when a heading comes into view.
+const observer = new IntersectionObserver(entries, id => {
+    entries.forEach(entry => {
+      // const heading = entry.target.querySelector('#welcome_head');
+      const heading = id;
+  
+      if (entry.isIntersecting) {
+        heading.classList.add('lineUp');
+        return; // if we added the class, exit the function
+      }
+  
+      // We're not intersecting, so remove the class!
+      heading.classList.remove('lineUp');
+
+      // window.addEventListener('scroll', function(){
+      //   if(entry.isIntersecting){
+      //     heading.classList
+      //   }
+      // });
+    });
+  });
+  
+  // observer.observe(document.querySelector('#welcome_title'));
+  observer.observe(document.querySelector('#welcome_title'), document.querySelector('#welcome_head'));
