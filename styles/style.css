@@ -219,9 +219,10 @@ body {
     /* About Section */
 
     #about_div{
-        background-image: url("../images/python_backgrnd.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-image: url("../images/python_backgrnd.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%;
+        z-index: -1;
         padding-bottom: 8rem;
     
     }
