@@ -219,10 +219,6 @@ body {
     /* About Section */
 
     #about_div{
-        background-image: url("../images/python_backgrnd.jpg") no-repeat center center fixed;
-        background-size: cover;
-        height: 100%;
-        z-index: -1;
         padding-bottom: 8rem;
     
     }
@@ -267,6 +263,12 @@ body {
     }
 
     /* Custom CSS Classes */
+
+    .about_div_class{
+        background-image: url("../images/python_backgrnd.jpg") no-repeat center center fixed;
+        background-size: cover;
+        height: 100%
+    }
     
     .card-body{
         background-color: #f9fcfed0;
@@ -280,6 +282,7 @@ body {
     .custom-btn:hover{
         background-color: #babfc155;
     }
+
     
 }
 
