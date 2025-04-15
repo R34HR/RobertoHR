@@ -266,7 +266,9 @@ body {
 
     .about_div_class{
         background-image: url("../images/python_backgrnd.jpg") no-repeat center center fixed;
-        background-size: cover;
+        background-size: contain;
+        background-attachment: fixed;
+        background-position: center;
         height: 100%
     }
     
