@@ -3,22 +3,22 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Roberto Hernandez-Ramirez eportolio">
+      <meta name="description" content="Roberto Hernandez-Ramirez Eportfolio">
       <meta name="keywords" content="HTML, CSS, JavaScript">
       <meta name="author" content="Roberto Hernandez-Ramirez">
-      <title>Roberto's Portfolio</title>
+      <title>Roberto's ePortfolio</title>
       <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
       <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="styles/style.css" rel="stylesheet">
+      <link href="styles/style_too.css" rel="stylesheet">
 
   </head>
   <body>
     <!-- Header and Main navigation -->
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top" id = "navbar_sect">
-        <div class="container-fluid" id="nav_container">
+      <nav class="navbar navbar-expand-lg fixed-top nav_sect">
+        <div class="container-fluid nav_sect">
           <a class="navbar-brand animate-character" href="#" id="nav_name">Roberto Hernandez-Ramirez</a>
           <button class="navbar-toggler custom-btn"  type="button" data-bs-toggle="collapse" data-bs-target="#navbar_div" aria-controls="navbar_div" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,13 +29,13 @@
                   <a class="nav-link" aria-current="page"  href="#" id="about_link">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" target="_parent"  href="#experience_sect" id="experience_link">Experience</a>
+                  <a class="nav-link" aria-current="page" target="_parent"  href="#experience_title" id="experience_link">Experience</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" target="_parent" href="#cert_sect" id= "cert_link">Certifications</a>
+                  <a class="nav-link" aria-current="page" target="_parent" href="#cert_title" id= "cert_link">Certifications</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" target="_parent" href="#project_sect"  id = "project_link">Projects</a>
+                  <a class="nav-link" aria-current="page" target="_parent" href="#project_title"  id = "project_link">Projects</a>
                 </li>
               </ul>
               <span class="navbar-text" id="contact_links">
@@ -52,18 +52,19 @@
     </header>
     
     <!-- About Section -->
-    <div id="about_div" class="about_div_class">
-      <div class=" .container-fluid overflow-hidden " id="about_container">
+    <div class="">
+      <div class=" .container-fluid overflow-hidden about_div ">
         <div id="welcome_title">
           <h1 class="lineUp" id="welcome_head">Welcome to my portfolio!</h1>
         </div>
         <div class="row gy-4 justify-content-center" >
-          <div id="personal_photo_box" class = "col-lg-4">
+          <div class = "col-lg-4">
             <img src="images/self_portrait.webp" class="rounded float-center" id="photo_me" alt="Roberto Hernandez-Ramirez" width= 325px height=325px>
           </div>
           <div id="personal_intro_box" class = "col-lg-4 col-md-9 col-sm-10 col-11 border">
-            <p>My name is Roberto Hernandez-Ramirez. Born and raised in Seattle, Washington where I studied at Seattle Pacific University pursuing a bachelors of Science Degree in Computer Science. I enjoy learning, staying active and finding inspiration by listening to differnt genres of music. I am deeply passionate about cybersecurity and extremely driven to expanding my expertise within the field.</p>
-            <p>Below you'll find previous job experiences, projects and earned certifications which attest to my dedication in the cybersecurity field.</p>
+            <p>My name is Roberto Hernandez-Ramirez. Born and raised in Seattle, Washington where I studied at Seattle Pacific University pursuing a bachelors of Science Degree in Computer Science.</p>
+            <p>I'm a passionate cybersecurity enthusiast with a dedicated commitment to innovation and developing mature proficiency in the cybersecurity field. I enjoy researching unexplored cybersecurity subjects, staying physically active and finding creative inspiration by exploring diverse genres of music.</p>
+            <p>On this page you'll find previous job experiences, projects and earned certifications which attest to my dedication in the cybersecurity field.</p>
             <p>Please feel free to look around and <a class="link-light" href="https://www.linkedin.com/in/roberto-hernandez-r" target="_blank" > contact me</a> for any information.</p>
           </div>
         </div>
@@ -71,23 +72,23 @@
     </div>
 
     <!-- Experience Section -->
-    <div id = "experience_sect" class=" .container-fluid overflow-hidden border">
-      <div id="experience_title">
-        <h2 class = "lineUp" id ="experience_head"><u><b>Experience:</b></u></h2>
+    <div class=" .container-fluid overflow-hidden border sect_container">
+      <div id="experience_div">
+        <h2 class = "lineUp" id ="experience_title"><u><b>Experience:</b></u></h2>
       </div>
-      <div class="row gx-5 gy-3 justify-content-center" id="experience_div">
-        <div id="blue_cable_photobox" class = "col-lg-4">
+      <div class="row gx-5 gy-3 justify-content-center">
+        <div class = "col-lg-4 photobox_div">
           <img src="images/blue_cable.webp" class="rounded float-center" id="blue_cable" alt="Blue Cable Wireless" width= 300px height=300px>
         </div>
         <div id="experience_textbox" class = "col-lg-4 col-md-9 col-sm-10">
           <h5><b>Role: Assistant Manager</b></h5>
-          <h6><u>2019-2022</u></h6>
-          <div id="exp_list_div">
-            <ul class="list-group list-group-flush" id="experience_list">
-              <li class="list-group-item"> <u>Developed</u> experience in troubleshooting vast array of electronic and mobile device models through 30+ daily customer interactions.</li>
-              <li class="list-group-item"> <u>Consistantly</u> delivered outstanding customer service by actively listening, addressing, and resolving client inquiries with over 93% customer satisfaction.</li>
-              <li class="list-group-item"> <u>Acquired</u> experience training incoming staff on utlizing essential tools and applying effective troubleshooting techniques for a wide-range of device models </li>
-              <li class="list-group-item"> <u>Served</u> as primary advisor for diagnosing and resolving mobile device issues, prioritizing effective repairs for utmost customer satisfaction</li>
+          <h6><u>2016-2022</u></h6>
+          <div class="list_div">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <u>Developed</u> 6 years experience troubleshooting vast array of electronic and mobile device models through 30+ daily customer interactions.</li>
+              <li class="list-group-item"> <u>Delivered</u> notable customer service by actively listening, addressing, and resolving client inquiries with 95% customer satisfaction.</li>
+              <li class="list-group-item"> <u>Strengthend</u> our team by diligintly training incoming staff on utlizing essential tools and applying effective troubleshooting techniques for a wide-range of device models </li>
+              <li class="list-group-item"> <u>Served</u> as primary advisor for 3+ years diagnosing and resolving mobile device issues, prioritizing effective repairs for utmost customer satisfaction</li>
             </ul>
           </div>
         </div>
@@ -95,17 +96,17 @@
     </div>
 
     <!-- Certications Div -->
-    <div class=" .container-fluid overflow-hidden border" id="cert_sect">
-      <h2 id = "cert_head"><u><b>Certifications:</b></u></h2>
+    <div class=" .container-fluid overflow-hidden border sect_container">
+      <h2 id = "cert_title"><u><b>Certifications:</b></u></h2>
       <div class="row gx-5 gy-4 justify-content-center" id ="sec_cert_div">
-          <div id="SecCert_photo_box" class = "col-lg-4">
+          <div class = "col-lg-4 photobox_div">
             <img src="images/comptia-security-ce-certification.png" class="rounded float-center" id = "sec_cert_photo" alt="Secuirty+ Logo">
             <p>Code : SNGN76YRMBQQQK3L</p>
           </div>
           <div id="cert_textbox" class = "col-lg-4 col-md-10 col-sm-10">
             <h5><b>Expertise & Knowledge in:</b></h5>
-            <div id="sec_skills_div">
-                <ul class="list-group list-group-flush" id="cert_skills_list">
+            <div class="list_div">
+                <ul class="list-group list-group-flush">
                   <li class="list-group-item"> <u>Assessing</u> the security posture of an enterprise environment, with the ability to recommend and implement appropriate security solutions.</li>
                   <li class="list-group-item"> <u>Monitoring and securing</u> hybrid environments, including cloud, mobile, Internet of Things (IoT) and operational technology.</li>
                   <li class="list-group-item"> <u>Operating</u> with an awareness of applicable regulations and policies, including governance, risk and compliance.</li>
@@ -114,14 +115,14 @@
             </div>
           </div>
       </div>
-      <div id="verify_button_div">
-      <a class="btn btn-lg btn-secondary" target="_blank" href="https://www.credly.com/badges/ac72cd87-0712-429d-b364-efd9d5ca847b/public_url" role="button" id="verify_button">Verify!</a>
+      <div>
+      <a class="btn btn-lg custom-btn" id="cert_btn" target="_blank" href="https://www.credly.com/badges/ac72cd87-0712-429d-b364-efd9d5ca847b/public_url" role="button">Verify!</a>
       </div>
     </div>
 
     <!-- Coding Projects Sections -->
-    <div class=".container-fluid overflow-hidden border" id = "project_sect" >
-      <h2 id = "project_head"><u><b>Coding Projects:</b></u></h2>
+    <div class=".container-fluid overflow-hidden border" id = "project_cont" >
+      <h2 id = "project_title"><u><b>Coding Projects:</b></u></h2>
       <div class="row gy-3 justify-content-center" id = projects_div>
         <div class="col-sm-6 col-md-4 mb-3 mb-sm-0" id = cards_div>
           <div class="card">
@@ -129,7 +130,7 @@
               <div class="card-body">
                 <h5 class="card-title">Keylogger in Python:</h5>
                 <p class="card-text">Developed a keylogging tool in Python using the OS and Keyboard libraries to monitor and record keystrokes to a separate file. Currently enhancing its capabilities by exploring its application in ethical security research and vulnerability assessment for educational purposes</p>
-                <a href="https://github.com/R34HR/PyProject_1_keylog" class="btn btn-secondary" target="_blank">Check it out</a>
+                <a href="https://www.github.com/R34HR/PyProject_1_keylog" class="btn custom-btn" target="_blank">Check it out</a>
               </div>
           </div>
         </div>
@@ -140,7 +141,7 @@
               <div class="card-body">
                 <h5 class="card-title">Seven-Second Matrix Subnetting Tool:</h5>
                 <p class="card-text">Created a Python program that processes an IPv4 address in CIDR notation and outputs the corresponding subnet mask, subnet ID, broadcast address, and first/last usable addresses using the Seven-Second Subnetting Matrix.</p>
-                <a href="https://github.com/R34HR/SevenSecondSubnetting" class="btn btn-secondary" target="_blank">Check it out!</a>
+                <a href="https://www.github.com/R34HR/SevenSecondSubnetting" class="btn custom-btn" target="_blank">Check it out!</a>
               </div>
           </div>
         </div>
@@ -150,8 +151,8 @@
               <img src="images/Port_scan(1).webp" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Port Scanner in C++:</h5>
-                <p class="card-text">Developing a port scanner in C++ to enhance my understanding of networking and port communication. The program scans for open ports from a user-provided IPv4 address or public URL, within a port range defined by the user. Currently optimizing its capabilites and usefulness to serve as a tool.</p>
-                <a href="https://github.com/R34HR/CPP_PortScanner" class="btn btn-secondary" target="_blank">Check it out!</a>
+                <p class="card-text">Built a port scanner in C++ to enhance my understanding of networking and port communication. The program scans for open ports from a user-provided IPv4 address or public URL, within a port range defined by the user. Currently optimizing its capabilites and usefulness to serve as a tool.</p>
+                <a href="https://www.github.com/R34HR/CPP_PortScanner" class="btn custom-btn" target="_blank">Check it out!</a>
               </div>
             </div>
         </div>
@@ -160,7 +161,7 @@
 
     <!-- Footer section -->
     <footer>
-      <p>All rights reserved &#xA9; <script>document.write(/\d{4}/.exec(Date())[0])</script> Roberto Hernandez-Ramirez.</p>
+      <p id="footer">All rights reserved &#xA9; <script>document.write(/\d{4}/.exec(Date())[0])</script> Roberto Hernandez-Ramirez.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>

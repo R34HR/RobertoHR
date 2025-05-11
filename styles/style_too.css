@@ -1,0 +1,312 @@
+@import url('https://getbootstrap.com/dist/css/bootstrap.css');
+
+/* Main CSS --> General Styles*/
+
+html{
+    text-align: center;
+    background-color: #fefef8ec;
+    /* #F9FEFF; */
+    scroll-padding-top: 70px;
+} 
+
+footer{
+    text-align: center;
+    background-color: #fefef8ec;
+    color: #20242F;
+  }
+
+a:hover {
+    background-color: #313748;
+}
+
+body {
+    width: auto;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    display: block;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Header and Main Navigation */
+
+.navbar{
+    background-color: #20242F;
+    text-align: center;
+
+}
+
+.nav-link{
+    font-size: 14px;
+    color: #f9fcfe;
+}
+.nav-link:hover{
+    color:#f9fcfe;
+}
+
+#nav_name{
+    font-size: 18px;
+    color:#f9fcfe
+}
+
+/* About Section */
+
+.about_div{
+    background-image: url("../images/python_backgrnd.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    background-position: center;
+    z-index: -1;
+    padding-bottom: 12rem;
+    color: #f9fcfe;
+
+}
+
+#welcome_title{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-size: x-large;
+}
+
+#personal_intro_box{
+    background-color: rgba(0,0,0, 0.5);
+    font-size: 18px;
+
+}
+
+
+/* CSS Classes + Custom ID CSS */
+
+.sect_container{
+    border-style: ridge;
+    padding-top: 3rem;
+    padding-bottom: 7rem;
+    background-color: #fefef8ec;
+
+}
+
+.row{
+    padding-top: 2.5rem; 
+}
+
+
+#project_cont{
+    border-style: ridge;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #fefef8ec;
+}
+
+.photobox_div{
+    padding-top: 3rem;
+}
+
+.list-group{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.btn{
+    margin-top: 1rem;
+    padding: .5rem 1.5rem;
+}
+
+.card-body{
+    background-color: #f9fcfed0;
+}
+
+.custom-btn{
+    background-color: #b5b5b5;
+    color:black;
+}
+.custom-btn:hover{
+    background-color: #b5b5b5b6;
+}
+
+
+.lineUp {
+    animation: 1.5s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  /* Large Monitors/TV's CSS */
+
+@media (min-width:1900px){
+  
+    
+    /* Header and Main Navigation */
+    
+    
+    .nav-link{
+        font-size: 20px;
+        color: #f9fcfe;
+    }
+    
+    #nav_name{
+        font-size: 28px;
+        color:#f9fcfe
+    }
+    #linked_png,
+    #git_png{
+        height: 75px;
+        width: 75px;
+    }
+    
+    /* About Section */
+    
+    .about_div{
+        background-image: url("../images/python_backgrnd.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: padding-box;
+        background-position: center;
+        z-index: -1;
+        padding-bottom: 20rem;
+        color: #f9fcfe;
+    
+    }
+    
+    #welcome_title{
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+
+    }
+    #welcome_head{
+        font-size: 64px;
+    }
+
+    #personal_intro_box{
+        background-color: rgba(0,0,0, 0.5);
+        font-size: 2.25rem;
+    
+    }
+    #blue_cable,
+    #sec_cert_photo{
+        height: 450px;
+        width: 450px;
+    }
+    #photo_me{
+        height: 550px;
+        width: 550px;
+
+    }
+
+    #experience_title,
+    #project_title,
+    #cert_title{
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* CSS Classes + Custom ID CSS */
+    
+    .sect_container{
+        border-style: ridge;
+        padding-top: 6rem;
+        padding-bottom: 14rem;
+        background-color: #fefef8ec;
+    
+    }
+
+    .row{
+        padding-top: 8rem; 
+    }
+    
+    
+    #project_cont{
+        border-style: ridge;
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+        background-color: #fefef8ec;
+    }
+    
+    .photobox_div{
+        padding-top: 3rem;
+    }
+    
+    .list-group{
+        font-weight: 800;
+        font-size: 2rem;
+    }
+
+    
+    .btn{
+        margin-top: 1rem;
+        padding: 1rem 2.5rem;
+        font-size: 2.5rem;
+    
+    }
+    .card-title{
+        font-size: 2.75rem;
+    }
+    .card-text{
+        font-size: 2rem;
+
+    }
+    .card-body{
+        background-color: #f9fcfed0;
+    }
+    #footer{
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+    
+    .custom-btn{
+        background-color: #b5b5b5;
+        color:black;
+    }
+    .custom-btn:hover{
+        background-color: #b5b5b5b6;
+    }
+    
+    
+    .lineUp {
+        animation: 1.5s anim-lineUp ease-out;
+      }
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+
+}
+
+
+@media (max-width:990px){
+    .photobox_div{
+        padding-top: .5rem;
+    }
+}
